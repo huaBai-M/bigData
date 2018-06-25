@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<style type="text/css">
+		</style>
+	</head>
+	<body>
+		<div class="wayboo">
+			<div class="logo">
+				<a href="www.wayboo.com"><img src="img/xr_logo.png"/></a>
+			</div>
+			<div class="wayboo_PcTxt">
+					<h1>生意帮</h1>
+					<p>效果实时统计</p>
+				</div>
+			<div class="wayboo_top">
+				<div class="wayboo_mTxt">
+					<h1>信融生意帮</h1>
+					<p>效果实时统计</p>
+				</div>
+				<div class="wayboo_round">
+					<div class="round"><img src="img/round.png"/></div>
+					<div>
+						<h3>点击量</h3>
+						<p>最近12个月累计收到的点击总数</p>
+						<h1 class="roundNum"></h1>
+					</div>
+				</div>
+				<div class="wayboo_bottom clearfix">
+					<img src="img/money.png"/>
+					<span class="txt">商机数</span>
+					<i>/</i>
+					<span class="money">17,042</span>
+				</div>
+			</div>
+			<div class="wayboo_middle">
+				<div class="wayboo_map clearfix">
+					<div class="wayboo_mapLeft">
+						<h1>精准流量热力图 <img src="img/jian.png"/></h1>
+						<p>城市排行榜</p>
+						<div class="wayboo_maplist">
+							<div><p style="width: 0%;"></p></div>
+							<span>山东</span>
+						</div>
+						<div class="wayboo_maplist">
+							<div><p style="width: 0%;"></p></div>
+							<span>北京</span>
+						</div>
+						<div class="wayboo_maplist">
+							<div><p style="width: 0%;"></p></div>
+							<span>河北</span>
+						</div>
+						<div class="wayboo_maplist">
+							<div><p style="width: 0%;"></p></div>
+							<span>江苏</span>
+						</div>
+						<div class="wayboo_maplist">
+							<div><p style="width: 0%;"></p></div>
+							<span>广东</span>
+						</div>
+						<div class="wayboo_maplist">
+							<div><p style="width: 0%;"></p></div>
+							<span>河南</span>
+						</div>
+						<div class="wayboo_maplist">
+							<div><p style="width: 0%;"></p></div>
+							<span>浙江</span>
+						</div>
+					</div>
+					<div class="wayboo_mapRight" id="map">
+					</div>
+				</div>
+				<!---->
+				<div class="wayboo_exposure clearfix">
+					<div class="wayboo_exposureLeft">
+						<h1>曝光量 <img src="img/jian.png"/></h1>
+						<p>过去12个月累计数值</p>
+						<div class="wayboo_exposureimg">
+							<h1 class="exposureNum">
+							</h1>
+						</div>
+					</div>
+					<div class="wayboo_exposureRight">
+						<ul class="clearfix">
+							<li>
+								<div><img src="img/bottomlist1.png"/></div>
+								<p>43%</p>
+							</li>
+							<li>
+								<div><img src="img/bottomlist2.png"/></div>
+								<p>43%</p>
+							</li>
+							<li>
+								<div><img src="img/bottomlist3.png"/></div>
+								<p>43%</p>
+							</li>
+							<li>
+								<div><img src="img/top1.png"/></div>
+								<p>43%</p>
+							</li>
+							<li>
+								<div><img src="img/top2.png"/></div>
+								<p>43%</p>
+							</li>
+							<li>
+								<div><img src="img/top3.png"/></div>
+								<p>43%</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!---->
+				<div class="wayboo_click clearfix">
+					<div class="wayboo_clickLeft">
+						<h1>点击量 <img src="img/jian.png"/></h1>
+						<p>过去30天累计数值</p>
+						<h3 class="clickNum1"></h3>
+						<i></i>
+						<p>过去12个月累计数值</p>
+						<h3 class="h3 clickNum2"></h3>
+					</div>
+					<div class="wayboo_clickRight">
+						<div id="areaAbt">
+							<button class="areaAbtactive">近一月</button>
+							<button>近三月</button>
+							<button>近六月</button>
+							<button>近一年</button>
+						</div>
+						<div id="area"></div>
+					</div>
+				</div>
+				<!---->
+				<div class="wayboo_deal clearfix">
+					<div class="wayboo_dealkLeft">
+						<h1>成交金额 <img src="img/jian.png"/></h1>
+						<p>过去30天累计数值</p>
+						<h3 class="dealNum"></h3>
+					</div>
+					<div class="wayboo_dealkRight" id="pie">
+						<p><img src="img/pie.png"/></p>
+						<ul>
+							<li><i style="background:#15b0fd;"></i>机械设备 30%</li>
+							<li><i style="background:#407bec;"></i>建筑器材 20%</li>
+							<li><i style="background:#7160f9;"></i>能源化工 17%</li>
+							<li><i style="background:#9b41fe;"></i>五金电子 16%</li>
+							<li><i style="background:#b629fc;"></i>农林牧渔 9%</li>
+							<li><i style="background:#ae0abe;"></i>企业服务 6%</li>
+							<li><i style="background:#bd2381;"></i>生活服务 2%</li>
+							<li><i style="background:#c4265c;"></i>其它 1%</li>
+						</ul>
+					</div>
+				</div>
+				<!---->
+				<div class="wayboo_table clearfix">
+					<div class="wayboo_tableLeft">
+						<h1>今日实时点击</h1>
+						<table border="0" cellspacing="0" cellpadding="0">
+							<thead>
+								<tr>
+									<th>点击时间</th>
+									<th>受访企业</th>
+									<th>访客位置</th>
+									<th>展示平台</th>
+									<th>流量来源</th>
+								</tr>
+							</thead>
+						</table>
+						<div class="tableOne">
+							<table border="0" cellspacing="0" cellpadding="0" class="tbody">
+								<tbody>
+									<tr>
+										<th>09:32</th>
+										<th>威海****公司 </th>
+										<th>湖北武汉</th>
+										<th>PC端</th>
+										<th>搜索引擎</th>
+									</tr>
+									<tr>
+										<th>09:32</th>
+										<th>威海****公司 </th>
+										<th>湖北武汉</th>
+										<th>PC端</th>
+										<th>搜索引擎</th>
+									</tr>
+									<tr>
+										<th>09:32</th>
+										<th>威海****公司 </th>
+										<th>湖北武汉</th>
+										<th>PC端</th>
+										<th>搜索引擎</th>
+									</tr>
+									<tr>
+										<th>09:32</th>
+										<th>威海****公司 </th>
+										<th>湖北武汉</th>
+										<th>PC端</th>
+										<th>搜索引擎</th>
+									</tr>
+									<tr>
+										<th>09:32</th>
+										<th>威海****公司 </th>
+										<th>湖北武汉</th>
+										<th>PC端</th>
+										<th>搜索引擎</th>
+									</tr>
+									<tr>
+										<th>09:32</th>
+										<th>威海****公司 </th>
+										<th>湖北武汉</th>
+										<th>PC端</th>
+										<th>搜索引擎</th>
+									</tr>
+									<tr>
+										<th>09:32</th>
+										<th>威海****公司 </th>
+										<th>湖北武汉</th>
+										<th>PC端</th>
+										<th>搜索引擎</th>
+									</tr>
+									<tr>
+										<th>09:32</th>
+										<th>威海****公司 </th>
+										<th>湖北武汉</th>
+										<th>PC端</th>
+										<th>搜索引擎</th>
+									</tr>
+									<tr>
+										<th>09:32</th>
+										<th>威海****公司 </th>
+										<th>湖北武汉</th>
+										<th>PC端</th>
+										<th>搜索引擎</th>
+									</tr>
+									<tr>
+										<th>09:32</th>
+										<th>威海****公司 </th>
+										<th>湖北武汉</th>
+										<th>PC端</th>
+										<th>搜索引擎</th>
+									</tr>
+									<tr>
+										<th>09:32</th>
+										<th>威海****公司 </th>
+										<th>湖北武汉</th>
+										<th>PC端</th>
+										<th>搜索引擎</th>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<div class="wayboo_tableRight" style="border-right: none;">
+						<h1>今日实时求购商机</h1>
+						<table border="0" cellspacing="0" cellpadding="0">
+							<thead>
+								<tr>
+									<th>求购放</th>
+									<th>供应方</th>
+								</tr>
+							</thead>
+						</table>
+						<div class="tableTow">
+							<table border="0" cellspacing="0" cellpadding="0" class="tbody">
+								<tbody>
+									<tr>
+										<th>河北企业（135****0483）</th>
+										<th>北京悦祥****公司（北京信融二分）京悦祥****公司（北京信融二</th>
+									</tr>
+									<tr>
+										<th>河北企业（135****0483）</th>
+										<th>北京悦祥****公司（北京信融二分）</th>
+									</tr>
+									<tr>
+										<th>河北企业（135****0483）</th>
+										<th>北京悦祥****公司（北京信融二分）</th>
+									</tr>
+									<tr>
+										<th>河北企业（135****0483）</th>
+										<th>北京悦祥****公司（北京信融二分）</th>
+									</tr>
+									<tr>
+										<th>河北企业（135****0483）</th>
+										<th>北京悦祥****公司（北京信融二分）</th>
+									</tr>
+									<tr>
+										<th>河北企业（135****0483）</th>
+										<th>北京悦祥****公司（北京信融二分）</th>
+									</tr>
+									<tr>
+										<th>河北企业（135****0483）</th>
+										<th>北京悦祥****公司（北京信融二分）</th>
+									</tr>
+									<tr>
+										<th>河北企业（135****0483）</th>
+										<th>北京悦祥****公司（北京信融二分）</th>
+									</tr>
+									<tr>
+										<th>河北企业（135****0483）</th>
+										<th>北京悦祥****公司（北京信融二分）</th>
+									</tr>
+									<tr>
+										<th>河北企业（135****0483）</th>
+										<th>北京悦祥****公司（北京信融二分）</th>
+									</tr>
+									<tr>
+										<th>河北企业（135****0483）</th>
+										<th>北京悦祥****公司（北京信融二分）</th>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+				<!---->
+				<div class="wayboo_partner">
+					<h1>合作伙伴 <img src="img/jian.png"/></h1>
+					<ul class="clearfix">
+						<li class="Lborder"><img src="img/bottomlist1.png"/></li>
+						<li><img src="img/bottomlist2.png"/></li>
+						<li><img src="img/bottomlist3.png"/></li>
+						<li><img src="img/bottomlist4.png"/></li>
+						<li class="Lborder"><img src="img/bottomlist5.png"/></li>
+						<li><img src="img/bottomlist6.png"/></li>
+						
+						<li class="bottom Mbottom"><img src="img/bottomlist7.png"/></li>
+						<li class="bottom Mbottom "><img src="img/bottomlist8.png"/></li>
+						<li class="bottom Lborder"><img src="img/bottomlist9.png"/></li>
+						<li class="bottom"><img src="img/bottomlist10.png"/></li>
+						<li class="bottom"><img src="img/bottomlist11.png"/></li>
+						<li class="bottom"><img src="img/bottomlist12.png"/></li>
+					</ul>
+				</div>
+			</div>
+			<div class="foot_bottom" style="text-align: center;color:rgba(255, 255, 255, 0.6);font-size: 12px;padding: 10px 0;">
+				Copyright 2013-2018 www.wayboo.com All Rights Reserved. 信融科技 版权所有 京IPC备 <span style="color:rgba(255, 255, 255, 0.6);">13035649</span>号-2
+			</div>
+		</div>
+		<script src="js/map.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" src="js/echarts.min.js"></script>
+		<script src="js/echarts.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>
